@@ -21,7 +21,8 @@ jobs:
 
       - name: Install dependencies
         # uses: bahmutov/npm-install@v1
-        run: npm install
+        run: npm install -g pnpm
+        run: pnpm install
 
       - name: Build project
         run: npx vite build

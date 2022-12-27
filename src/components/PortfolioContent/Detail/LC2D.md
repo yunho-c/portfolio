@@ -10,10 +10,10 @@ Least-Complexity 2D Gantry: simplitstic 2-axis gantry with minimal number of com
 **Gallery**
 
 1. Main View
-    <img class="rounded-lg shadow-xl" src="/assets/LC2D/LC2D main.png">
+    <img class="rounded-lg shadow-xl" src="/assets/LC2D/LC2D_main.png">
 
 2. Assembly
-    <img class="rounded-lg shadow-xl" src="/assets/LC2D/LC2D Assembly.jpeg">
+    <img class="rounded-lg shadow-xl" src="/assets/LC2D/LC2D_Assembly.jpeg">
     
 3. Working Prototype
     <iframe class="w-full aspect-video rounded-xl shadow-xl" src="https://www.youtube.com/embed/u4tKX-sRrv0?rel=0&color=white" title="Live Braille (Real-Time Text Detection & Braille Translation) Demo #1" color="white" frameborder="0" allow="autoplay; clipboard-write; encrypted-media;" allowfullscreen></iframe>

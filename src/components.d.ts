@@ -7,7 +7,6 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    copy: typeof import('./components/PortfolioContent/Detail/LiveBraille copy.md')['default']
     Counter: typeof import('./components/Counter.vue')['default']
     Footer: typeof import('./components/Footer.vue')['default']
     GTPlanner: typeof import('./components/PortfolioContent/Detail/GTPlanner.md')['default']

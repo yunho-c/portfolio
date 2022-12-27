@@ -1,17 +1,14 @@
 ## GT-Planner
 
-<!-- [main photo - animated! - auto-played mp4 of demo] -->
-<img class="aspect-video object-cover rounded-lg hover:scale-102 transition-all duration-500 ease-in-out transform" src="/assets/MainPhoto_GTPlanner.png">
-
-
 ### What
 
-- 비주얼 갤러리
-    
-    [https://www.youtube.com/watch?v=sUs1p9UC82c](https://www.youtube.com/watch?v=sUs1p9UC82c)
-    
+Undergraduate course planning aid and visualization website for students in Georgia Tech.
 
-Undergraduate course planning aid and visualization website for students in Georgia Tech
+**Gallery**
+
+1. Demo
+    <iframe class="w-full aspect-video rounded-xl shadow-xl" src="https://www.youtube.com/embed/sUs1p9UC82c?rel=0&color=white" title="Live Braille (Real-Time Text Detection & Braille Translation) Demo #1" color="white" frameborder="0" allow="autoplay; clipboard-write; encrypted-media;" allowfullscreen></iframe>
+    
 
 ### Why
 
@@ -19,7 +16,17 @@ For college students, registering for classes is like a war. But it doesn't end 
 
 ### How
 
-Graphviz graph creation library and JavaScript interface, d3-Graphviz, are implemented as main axes. We use Vue for basic frontend functionality. We use Python, FastAPI, and MongoDB for web crawling and data analysis. In the fall of 2022, it will be launched as a student council IT committee project, and a team will be formed to begin development in earnest.
+Graphviz graph creation library and JavaScript interface, `d3-Graphviz`, are implemented as main axes. We use Vue for basic frontend functionality. We use `Python`, `FastAPI`, and `MongoDB` for web crawling and data analysis. In the fall of 2022, it will be launched as a student council IT committee project, and a team will be formed to begin development in earnest.
+
+<aside>
+<div class="font-semibold leading-10">Keywords:
+  <div class="ml-4 text-xs inline-flex items-center font-bold leading-sm px-3 py-1 bg-white rounded-full border">VueJS</div>
+  <div class="ml-4 text-xs inline-flex items-center font-bold leading-sm px-3 py-1 bg-white rounded-full border">D3.js</div>
+  <div class="ml-4 text-xs inline-flex items-center font-bold leading-sm px-3 py-1 bg-white rounded-full border">Graphviz</div>
+  <div class="ml-4 text-xs inline-flex items-center font-bold leading-sm px-3 py-1 bg-white rounded-full border">FastAPI & Uvicorn</div>
+  <div class="ml-4 text-xs inline-flex items-center font-bold leading-sm px-3 py-1 bg-white rounded-full border">Flask</div>
+</div>
+</aside>
 
 ### Learn More
 

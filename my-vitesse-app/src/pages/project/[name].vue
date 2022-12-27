@@ -28,7 +28,7 @@ watchEffect(() => {
     <Detail_LC2D v-else-if="props.name === 'LC2D'" />
     <Detail_TapProjects v-else-if="props.name === 'TapProjects'" />
     <Detail_TapKeyboard v-else-if="props.name === 'TapKeyboard'" />
-    
+
     <div>
       <button
         btn m="3 t6" text-sm

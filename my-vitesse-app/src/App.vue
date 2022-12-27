@@ -31,7 +31,7 @@ useHead({
   <RouterView v-slot="{ Component }">
     <transition name="fade" mode="out-in">
       <!-- <component :is="Component" /> -->
-      <component :is="Component" :key="$route.path"/>
+      <component :is="Component" :key="$route.path" />
     </transition>
   </RouterView>
 </template>

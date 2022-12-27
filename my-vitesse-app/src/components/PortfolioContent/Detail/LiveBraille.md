@@ -4,12 +4,12 @@
 
 **Gallery**
 
-1. 버전 2 작동영상
+1. Version 1 Demo
+    <iframe class="w-full aspect-video rounded-xl shadow-xl" src="https://www.youtube.com/embed/j7fZV_u3UVg?rel=0&color=white" title="Live Braille (Real-Time Text Detection & Braille Translation) Demo #1" color="white" frameborder="0" allow="autoplay; clipboard-write; encrypted-media;" allowfullscreen></iframe>
     
-    
-2. 버전 1 작동영상
-    <iframe class="w-full aspect-video rounded-xl" src="https://www.youtube.com/embed/j7fZV_u3UVg" title="Live Braille (Real-Time Text Detection & Braille Translation) Demo #1" color="white" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; allowfullscreen></iframe>
-        
+2. Version 2 Demo
+    <p class="op30">[work in progress]</p>
+
 
 It is an auxiliary program that recognizes text within the field of view in real time and translates it into Braille or reads it aloud.
 
@@ -22,3 +22,16 @@ Naturally, many companies started developing with the idea that they would like 
 ### How
 
 To speed things up to a level where real-time operation is possible, we use Baidu's Paddle framework and the PaddleOCR library, which enables multi-language scene text detection. Support for translation to Grade I English braille using the PyBraille library. We plan to develop our own multilingual braille translation library in the future. We are overhauling the code with the goal of improving usability through intuitive gestural interactions.
+
+<aside>
+<div class="font-semibold leading-10">Keywords:
+  <div class="ml-4 text-xs inline-flex items-center font-bold leading-sm px-3 py-1 bg-white rounded-full border">ONNX</div>
+  <div class="ml-4 text-xs inline-flex items-center font-bold leading-sm px-3 py-1 bg-white rounded-full border">OpenCV</div>
+  <div class="ml-4 text-xs inline-flex items-center font-bold leading-sm px-3 py-1 bg-white rounded-full border">Inference Optimization</div>
+  <div class="ml-4 text-xs inline-flex items-center font-bold leading-sm px-3 py-1 bg-white rounded-full border">Text-to-Speech</div>
+</div>
+</aside>
+
+### Learn More
+
+[GitHub Repository]

@@ -1,10 +1,21 @@
-<script>
-import { Box, Camera, LambertMaterial, PointLight, Renderer, Scene } from 'troisjs'
+<script async src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js" />
+<!--
+<script type="importmap">
+  {
+  "imports": {
+  "three": "../build/three.module.js",
+  "three/addons/": "./jsm/"
+  }
+  }
+</script> -->
+
+<script type="module">
 import * as THREE from 'three'
-// import { OrbitControls } from 'troisjs'
-export default {
-  components: { Box, Camera, LambertMaterial, PointLight, Renderer, Scene },
-}
+
+import Stats from 'three/addons/libs/stats.module.js'
+import { GUI } from 'three/addons/libs/lil-gui.module.min.js'
+
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js'
 
 let group
 let container, stats
@@ -17,7 +28,7 @@ let particlePositions
 let linesMesh
 
 const maxParticleCount = 1000
-const particleCount = 500
+let particleCount = 500
 const r = 800
 const rHalf = r / 2
 
@@ -242,16 +253,21 @@ function render() {
 </script>
 
 <template>
-  <div>
+  <head>
+    <title>three.js webgl - buffergeometry - lines drawrange</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="main.css">
+  </head>
+  <body>
     <div id="container" />
-    <!-- <Renderer>
-      <Camera :position="{ z: 10 }" />
-      <Scene>
-        <PointLight :position="{ y: 50, z: 50 }" />
-        <Box>
-          <LambertMaterial />
-        </Box>
-      </Scene>
-    </Renderer> -->
-  </div>
+    <div id="info">
+      <a href="https://threejs.org" target="_blank" rel="noopener">three.js</a> webgl - buffergeometry drawrange<br>
+      by <a href="https://twitter.com/fernandojsg">fernandojsg</a>
+    </div>
+
+    <!-- Import maps polyfill -->
+    <!-- Remove this when import maps will be widely supported -->
+  </body>
 </template>
+

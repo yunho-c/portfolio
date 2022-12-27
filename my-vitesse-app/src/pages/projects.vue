@@ -1,14 +1,14 @@
 <script setup lang="ts">
 // import Preview_PSSS from '../components/PortfolioContent/Preview/"
 // import Preview_RTSA
-import Preview_TipLetsWristLets from '../components/PortfolioContent/Preview/TipLetsWristLets.md'
-import Preview_LiveBraille from '../components/PortfolioContent/Preview/LiveBraille.md'
-import Preview_GTPlanner from '../components/PortfolioContent/Preview/GTPlanner.md'
-import Preview_ResearchHub from '../components/PortfolioContent/Preview/ResearchHub.md'
-import Preview_PCBEMG from '../components/PortfolioContent/Preview/PCBEMG.md'
-import Preview_LC2D from '../components/PortfolioContent/Preview/LC2D.md'
-import Preview_TapProjects from '../components/PortfolioContent/Preview/TapProjects.md'
-import Preview_TapKeyboard from '../components/PortfolioContent/Preview/TapKeyboard.md'
+import Preview_TipLetsWristLets from '../components/PortfolioContent/Preview/TipLetsWristLets_.md'
+import Preview_LiveBraille from '../components/PortfolioContent/Preview/LiveBraille_.md'
+import Preview_GTPlanner from '../components/PortfolioContent/Preview/GTPlanner_.md'
+import Preview_ResearchHub from '../components/PortfolioContent/Preview/ResearchHub_.md'
+import Preview_PCBEMG from '../components/PortfolioContent/Preview/PCBEMG_.md'
+import Preview_LC2D from '../components/PortfolioContent/Preview/LC2D_.md'
+import Preview_TapProjects from '../components/PortfolioContent/Preview/TapProjects_.md'
+import Preview_TapKeyboard from '../components/PortfolioContent/Preview/TapKeyboard_.md'
 // import About from './about.md'
 const user = useUserStore()
 const name = $ref(user.savedName)

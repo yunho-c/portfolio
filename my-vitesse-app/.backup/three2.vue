@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
 import { Box, Camera, LambertMaterial, PointLight, Renderer, Scene } from 'troisjs'
 // import { OrbitControls } from 'troisjs'
 export default {
@@ -16,4 +16,4 @@ export default {
       </Box>
     </Scene>
   </Renderer>
-</template>
+</template> -->

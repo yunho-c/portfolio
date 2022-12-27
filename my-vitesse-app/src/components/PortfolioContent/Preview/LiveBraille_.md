@@ -1,7 +1,7 @@
 ## Live Braille
 
 <!-- <img class="aspect-video object-cover rounded-lg hover:scale-102 transition-all duration-500 ease-in-out transform" src="/assets/MainPhoto_LiveBraille.png"> -->
-<video autoplay="autoplay" muted loop class="aspect-video object-cover rounded-lg hover:scale-102 transition-all duration-500 ease-in-out transform" id="vid">
+<video autoplay="autoplay" muted loop class="aspect-video object-cover rounded-lg shadow-md hover:scale-102 transition-all duration-500 ease-in-out transform" id="vid">
   <source src="/assets/MainVideo_LiveBraille.mp4" type="video/mp4" />
 </video>
 

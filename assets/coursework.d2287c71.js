@@ -1,0 +1,1 @@
+import{d as o,u as n,a as s,o as a,c as t,b as c,p as r}from"./index.5b679380.js";const l=o({__name:"coursework",setup(_){return n(),s(),(u,p)=>{const e=r;return a(),t("div",null,[c(e)])}}});export{l as default};

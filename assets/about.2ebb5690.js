@@ -1,0 +1,1 @@
+import{d as o,u as a,a as s,o as t,c as _,b as e,f as r,p as c}from"./index.0cd21500.js";import u from"./about_.a6092255.js";const d=o({__name:"about",setup(p){return a(),s(),(m,f)=>{const n=c;return t(),_("div",null,[e(n),e(r(u))])}}});export{d as default};

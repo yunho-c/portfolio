@@ -6,7 +6,7 @@ const { t } = useI18n()
 
 <template>
   <div>
-    <Header />
+    <!-- <Header /> -->
     <about />
   </div>
 </template>

@@ -12,7 +12,7 @@ const { t } = useI18n()
 
 <template>
   <div>
-    <Header />
+    <!-- <Header /> -->
     <div py-4 />
 
     <!-- temporary hero banner -->

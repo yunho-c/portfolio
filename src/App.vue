@@ -28,12 +28,16 @@ useHead({
       <component :is="Component" />
     </transition>
   </router-view> -->
-  <RouterView v-slot="{ Component }">
-    <transition name="fade" mode="out-in">
-      <!-- <component :is="Component" /> -->
-      <component :is="Component" :key="$route.path" />
-    </transition>
-  </RouterView>
+  <div>
+    <div py-6 />
+    <Header />
+    <RouterView v-slot="{ Component }">
+      <transition name="fade" mode="out-in">
+        <!-- <component :is="Component" /> -->
+        <component :is="Component" :key="$route.path" />
+      </transition>
+    </RouterView>
+  </div>
 </template>
 
 <style scoped>

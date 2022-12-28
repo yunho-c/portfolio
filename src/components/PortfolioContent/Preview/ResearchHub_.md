@@ -1,6 +1,6 @@
 ## ResearchHub
 
-<video autoplay="autoplay" muted loop webkit-playsinline playsinline class="aspect-video object-cover rounded-lg shadow-md hover:shadow-xl hover:scale-102 transition-all duration-500 ease-in-out transform" id="vid">
+<video autoplay="autoplay" muted loop webkit-playsinline playsinline class="preview" id="vid">
   <source src="/assets/MainVideo_ResearchHub.mp4" type="video/mp4" />
 </video>
 <!-- <img class="aspect-video object-cover hover:scale-102 transition-all duration-500 ease-in-out transform" src="/assets/MainPhoto_ResearchHub.png"> -->

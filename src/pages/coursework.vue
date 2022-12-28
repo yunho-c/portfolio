@@ -5,6 +5,6 @@ const { t } = useI18n()
 
 <template>
   <div>
-    <Header />
+    <!-- <Header /> -->
   </div>
 </template>

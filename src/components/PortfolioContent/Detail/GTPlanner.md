@@ -20,11 +20,11 @@ Graphviz graph creation library and JavaScript interface, `d3-Graphviz`, are imp
 
 <aside>
 <div class="font-semibold leading-10">Keywords:
-  <div class="ml-4 text-xs inline-flex items-center font-bold leading-sm px-3 py-1 bg-white rounded-full border">VueJS</div>
-  <div class="ml-4 text-xs inline-flex items-center font-bold leading-sm px-3 py-1 bg-white rounded-full border">D3.js</div>
-  <div class="ml-4 text-xs inline-flex items-center font-bold leading-sm px-3 py-1 bg-white rounded-full border">Graphviz</div>
-  <div class="ml-4 text-xs inline-flex items-center font-bold leading-sm px-3 py-1 bg-white rounded-full border">FastAPI & Uvicorn</div>
-  <div class="ml-4 text-xs inline-flex items-center font-bold leading-sm px-3 py-1 bg-white rounded-full border">Flask</div>
+  <div class="tag-bubble">VueJS</div>
+  <div class="tag-bubble">D3.js</div>
+  <div class="tag-bubble">Graphviz</div>
+  <div class="tag-bubble">FastAPI & Uvicorn</div>
+  <div class="tag-bubble">Flask</div>
 </div>
 </aside>
 

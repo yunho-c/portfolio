@@ -24,9 +24,8 @@ const { t } = useI18n()
 
 <template>
   <div>
-    <Header />
-
-    <div py-4 />
+    <!-- <Header /> 
+    <div py-4 /> -->
 
     <div class="grid grid-cols-3 gap-6">
       <div>

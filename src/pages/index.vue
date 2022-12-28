@@ -17,7 +17,7 @@ const { t } = useI18n()
 
     <!-- temporary hero banner -->
     <div class="relative">
-      <!-- <img class="w-full aspect-[21/9] object-cover rounded-md shadow-lg" src="/assets/Hero.jpg"> -->
+      <img class="w-full aspect-[21/9] object-cover rounded-md shadow-lg" src="/assets/Hero.jpeg">
       <div class="absolute bottom-0 left-0 right-0 px-4 py-2 bg-gray-900 bg-opacity-40">
         <h3 class="text-xl text-white font-semibold op90">
           Mechanical Engineering '24 @ <span class="text-yellow">Georgia Tech</span>

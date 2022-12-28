@@ -32,11 +32,11 @@ Each unit contains six `DRV2605` haptic motor drivers and a rechargeable coin ce
 
 <aside>
 <div class="font-semibold leading-10">Keywords:
-  <div class="ml-4 text-xs inline-flex items-center font-bold leading-sm px-3 py-1 bg-white rounded-full border">Bluetooth Low Energy</div>
-  <div class="ml-4 text-xs inline-flex items-center font-bold leading-sm px-3 py-1 bg-white rounded-full border">ESP32</div>
-  <div class="ml-4 text-xs inline-flex items-center font-bold leading-sm px-3 py-1 bg-white rounded-full border">Linear Resonant Actuator (LRA)</div>
-  <div class="ml-4 text-xs inline-flex items-center font-bold leading-sm px-3 py-1 bg-white rounded-full border">Ball Grid Array (BGA)</div>
-  <div class="ml-4 text-xs inline-flex items-center font-bold leading-sm px-3 py-1 rounded-full bg-white text-gray-700 border">PlatformIO</div>
+  <div class="tag-bubble">Bluetooth Low Energy</div>
+  <div class="tag-bubble">ESP32</div>
+  <div class="tag-bubble">Linear Resonant Actuator (LRA)</div>
+  <div class="tag-bubble">Ball Grid Array (BGA)</div>
+  <div class="tag-bubble">PlatformIO</div>
 </div>
 </aside>
 

@@ -25,10 +25,10 @@ To speed things up to a level where real-time operation is possible, we use Baid
 
 <aside>
 <div class="font-semibold leading-10">Keywords:
-  <div class="ml-4 text-xs inline-flex items-center font-bold leading-sm px-3 py-1 bg-white rounded-full border">ONNX</div>
-  <div class="ml-4 text-xs inline-flex items-center font-bold leading-sm px-3 py-1 bg-white rounded-full border">OpenCV</div>
-  <div class="ml-4 text-xs inline-flex items-center font-bold leading-sm px-3 py-1 bg-white rounded-full border">Inference Optimization</div>
-  <div class="ml-4 text-xs inline-flex items-center font-bold leading-sm px-3 py-1 bg-white rounded-full border">Text-to-Speech</div>
+  <div class="tag-bubble">ONNX</div>
+  <div class="tag-bubble">OpenCV</div>
+  <div class="tag-bubble">Inference Optimization</div>
+  <div class="tag-bubble">Text-to-Speech</div>
 </div>
 </aside>
 

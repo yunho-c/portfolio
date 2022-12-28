@@ -20,9 +20,9 @@ Uses `Vue`, `Vite` framework, `FastAPI`, `Python`, and `MongoDB`. To allow for c
 <aside>
 <div class="font-semibold leading-10">Keywords:
   <div class="ml-4 text-xs inline-flex items-center font-bold leading-sm px-3 py-1 bg-white dark:bg-gray-600 rounded-full border">Vue</div>
-  <div class="ml-4 text-xs inline-flex items-center font-bold leading-sm px-3 py-1 bg-white rounded-full border">Vite</div>
-  <div class="ml-4 text-xs inline-flex items-center font-bold leading-sm px-3 py-1 bg-white rounded-full border">FastAPI</div>
-  <div class="ml-4 text-xs inline-flex items-center font-bold leading-sm px-3 py-1 bg-white rounded-full border">Python</div>
-  <div class="ml-4 text-xs inline-flex items-center font-bold leading-sm px-3 py-1 bg-white rounded-full border">MongoDB</div>
+  <div class="tag-bubble">Vite</div>
+  <div class="tag-bubble">FastAPI</div>
+  <div class="tag-bubble">Python</div>
+  <div class="tag-bubble">MongoDB</div>
 </div>
 </aside>

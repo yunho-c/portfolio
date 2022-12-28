@@ -6,10 +6,10 @@ Small, wireless, battery-powered haptic devices for fingertips (*TipLets*) and w
 
 **Gallery**
 1. TipLets Components
-    <img class="aspect-square object-cover rounded-lg shadow-xl" src="/assets/TipletsWristLets/tiplets_pcbs.jpeg">
+    <img class="aspect-square object-cover rounded-lg shadow-xl" src="/assets/TipLetsWristLets/tiplets_pcbs.jpeg">
 
 2. WristLets PCB Render
-    <img class="aspect-square object-cover rounded-lg shadow-xl" src="/assets/TipletsWristLets/wristlets3.jpeg">
+    <img class="aspect-square object-cover rounded-lg shadow-xl" src="/assets/TipLetsWristLets/wristlets3.jpeg">
 
 ## Why
 

@@ -16,7 +16,7 @@ import Unocss from 'unocss/vite'
 import Shiki from 'markdown-it-shiki'
 
 export default defineConfig({
-  base: '/Portfolio/',
+  base: '/portfolio/',
   resolve: {
     alias: {
       '~/': `${path.resolve(__dirname, 'src')}/`,

@@ -1,1 +1,0 @@
-import{d as o,u as a,a as s,o as t,c as _,b as e,f as r,p as c}from"./index.f758a8fa.js";import u from"./about_.2a3d2a89.js";const d=o({__name:"about",setup(p){return a(),s(),(m,f)=>{const n=c;return t(),_("div",null,[e(n),e(r(u))])}}});export{d as default};

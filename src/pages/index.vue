@@ -27,8 +27,18 @@ const { t } = useI18n()
           Minor in Psychology | Planned: Master's in Human Computer Interaction (HCI)
           <!-- Passionate about design, technology, and education. -->
         </p>
+        <!-- <p class="mt-2 text-sm text-gray-300">
+          I'm an engineer who's passionate about many many things in the world, including: machines, software, AI, human-computer interaction, psychology, design theory, interactive artworks, 3D graphics, origami, music & instruments, spatial audio, and photography. In my free time, I watch documentaries, think about things, ride the bike, climb some rocks, read, write, plan out the coming weeks, and majestically procrastinate while doom-scrolling through Instagram. Thanks for visiting – and feel free to reach out!
+        </p> -->
       </div>
     </div>
+
+    <!-- <div class="p-6 bg-white grid grid-cols-4 gap-10 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+      <div class="col-span-1">
+        <img width="100%" height="100%" style="aspect-ratio:1/1" class="rounded-full" src="/assets/maskable@512.png">
+      </div>  
+      <p class="col-span-3 mb-3 font-normal text-xs text-gray-700 dark:text-gray-400">I'm an engineer who's passionate about many many things in the world, including: machines, software, AI, human-computer interaction, psychology, design theory, interactive artworks, 3D graphics, origami, music & instruments, spatial audio, and photography. In my free time, I watch documentaries, think about things, ride the bike, climb some rocks, read, write, plan out the coming weeks, and majestically procrastinate while doom-scrolling through Instagram. Thanks for visiting – and feel free to reach out!</p>
+    </div> -->
 
     <!-- <Renderer>
       <Camera :position="{ z: 10 }" />
@@ -60,32 +70,32 @@ const { t } = useI18n()
       </div> -->
 
       <div class="max-w-sm p-6 bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-200 dark:bg-gray-800 dark:border-gray-700">
-        <a href="#">
+        <a @click="router.push(`/about`)">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white op80">About</h5>
         </a>
         <!-- <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">It is possible to never work a day in life if you truly enjoy what you do. I find value and meaning in helping people solve problems using whatever means I have—which is oftentimes technology. Please allow me to introduce myself!</p> -->
         <!-- <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">It is possible to never work a day in life if you truly enjoy what you do. I find value and meaning in helping people solve problems using whatever means I have—which is oftentimes technology.</p> -->
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">It is possible to never work a day in life if you truly enjoy what you do. I find value and meaning in helping people solve problems using whatever means at disposal—whether it's technology, communication, or a new way to combine both.</p>
         <!-- <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Read more</a> -->
-        <a href="#" class="inline-flex items-center mt-2 px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Allow me to introduce myself!</a>
+        <router-link to="projects" class="inline-flex items-center mt-2 px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Allow me to introduce myself</router-link>
       </div>
       <div class="max-w-sm p-6 bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-200 dark:bg-gray-800 dark:border-gray-700">
-        <a href="#">
+        <a @click="router.push(`/coursework`)">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white op80">Coursework</h5>
         </a>
         <!-- <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">When I entered college, I promised myself to take classes that were the most unique, interesting, and of value—even if that meant stepping out of my comfort zone or sacrificing my GPA. I am happy to report that I have never regretted my decision.</p> -->
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">When I entered college, I promised myself to take classes that were the most unique, interesting, and of value—even if that meant stepping out of my comfort zone or sacrificing my GPA. Looking back, that decision has made all the difference.</p>
         <!-- <a href="#" class="inline-flex items-center mt-2 px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Take a look!</a> -->
-        <a href="#" class="inline-flex items-center mt-2 px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Curious in what I've learned?</a>
+        <router-link to="projects" class="inline-flex items-center mt-2 px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Curious in what I've learned?</router-link>
       </div>
       <div class="max-w-sm p-6 bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-200 dark:bg-gray-800 dark:border-gray-700">
-        <a href="#">
+        <a @click="router.push(`/projects`)">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white op80">Projects</h5>
         </a>
         <!-- <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">asdf</p> -->
         <!-- <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">'Project Based Learning' is one of my favorite words. Why? It's where the different topics of studies and the various people in the world intersect</p> -->
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">'Project Based Learning' is one of my favorite words. Why? Because the process of ideating, building, and testing a product represents an intersection whereby all the different topics of studies and the various peoples of our world connect. </p>
-        <a href="#" class="inline-flex items-center mt-2 px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Take a look at my projects!</a>
+        <router-link to="projects" class="inline-flex items-center mt-2 px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Take a look at my projects!</router-link>
       </div>
     </div>
 
